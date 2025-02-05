@@ -16,7 +16,7 @@ export default function WeatherForm() {
             return;
         }
 
-        const apiKey = "140b3acac46d0af5eb3ee189a312f55e"; 
+        const apiKey = "your apikey"; 
         const baseURL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
         try {
